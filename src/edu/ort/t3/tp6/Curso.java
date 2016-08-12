@@ -1,10 +1,12 @@
-package edu.ort.t3.tp6;
+﻿package edu.ort.t3.tp6;
 import java.util.Scanner;
 
 import edu.ort.t3.tp4.Alumno;
 import edu.ort.t3.tp4.Persona;
 import edu.ort.t3.tp4.Profesor;
-//Probando modificacion desde la web github 
+
+//Probando modificacion desde la web github
+//Probando modificacion desde cliente git (local)
 
 public class Curso {
 	private static final int TOPE = 2;
