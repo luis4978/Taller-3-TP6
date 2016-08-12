@@ -4,6 +4,7 @@ import java.util.Scanner;
 import edu.ort.t3.tp4.Alumno;
 import edu.ort.t3.tp4.Persona;
 import edu.ort.t3.tp4.Profesor;
+//Probando modificacion desde la web github 
 
 public class Curso {
 	private static final int TOPE = 2;
@@ -33,7 +34,7 @@ public class Curso {
 					+ "Ingrese una opcion: ", "");
 			op = input.next();
 			if (altas == TOPE && (op.equals("1") | op.equals("2"))) {
-				System.out.print("\n\nLa lista inscriptciÛn est· complata\n\n");
+				System.out.print("\n\nLa lista inscriptci√≥n est√° complata\n\n");
 			} else {
 				switch (op) {
 				case "1":
@@ -83,8 +84,8 @@ public class Curso {
 			((Alumno) p).setCantMaterias(Integer.parseInt(numerico("Ingrese cantidad de materias que cursa: ", 0, 7)));
 			((Alumno) p).setEstado(cadena("Ingrese estado ", "regular", "recursante", "baja"));
 		} else if (p instanceof Profesor) {
-			((Profesor) p).setDepartamento(cadena("Ingrese c·tedra ", "sistemas" ,"control", "quimica"));
-			((Profesor) p).setCategoria(cadena("Ingrese categorÌa ", "titular", "suplente", "auxiliar"));
+			((Profesor) p).setDepartamento(cadena("Ingrese c√°tedra ", "sistemas" ,"control", "quimica"));
+			((Profesor) p).setCategoria(cadena("Ingrese categor√≠a ", "titular", "suplente", "auxiliar"));
 		}
 		personas[altas++] = p;
 		System.out.println("Alta registrada");
